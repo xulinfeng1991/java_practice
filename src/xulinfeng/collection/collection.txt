@@ -1,0 +1,27 @@
+集合类练习
+
+SetDemo
+HashSet的去重机制
+TreeSet的排序机制
+
+
+List的性能比较
+WebListCompareTest
+ListEfficiencyTest
+
+
+
+
+[]
+待练习
+
+Collections工具的使用
+
+
+【小结】
+一般说来，先把元素添加到 HashSet，再把集合转换为TreeSet 来进行有序遍历会更快。
+
+(01) 对于需要快速插入，删除元素，应该使用LinkedList。
+(02) 对于需要快速随机访问元素，应该使用ArrayList。
+
+

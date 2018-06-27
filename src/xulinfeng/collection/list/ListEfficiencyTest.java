@@ -26,7 +26,7 @@ public class ListEfficiencyTest {
     add操作花费时间：8（ms）
     select操作花费时间：8（ms）
     forloop操作花费时间：3（ms）
-    iterator操作花费时间：0（ms）
+    iterator操作花费时间：13（ms）
     foreach操作花费时间：5（ms）
     deleteObj操作花费时间：1388（ms）
     addByIndex操作花费时间：1399（ms）
@@ -38,7 +38,7 @@ public class ListEfficiencyTest {
     add操作花费时间：49（ms）
     select操作花费时间：11403（ms）
     forloop操作花费时间：5164（ms）
-    iterator操作花费时间：0（ms）
+    iterator操作花费时间：12（ms）
     foreach操作花费时间：5（ms）
     deleteObj操作花费时间：6（ms）
     addByIndex操作花费时间：7（ms）
@@ -154,7 +154,7 @@ public class ListEfficiencyTest {
                 break;
             case iterator:
                 Iterator iterator = list.iterator();
-                if (iterator.hasNext()) {
+                while (iterator.hasNext()) {
                     Object o = iterator.next();
                     String s = o.toString();
                 }
